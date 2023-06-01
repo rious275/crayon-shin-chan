@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: red;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 120px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: rotate(-10deg);
+}
+
+article {
+  margin-top: 60px;
+}
+
+section {
+  height: 480px;
+  padding: 0 200px;
+}
+
+footer {
+  padding: 0 50px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
