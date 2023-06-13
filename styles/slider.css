@@ -1,0 +1,41 @@
+#slider {
+  max-width: 600px;
+}
+
+.swiper-container {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  height: 340px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+  opacity: 0.3;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  transform: scale(0.7);
+}
+
+.swiper-button-next {
+  right: 20%;
+}
+
+.swiper-button-prev {
+  left: 20%;
+}
